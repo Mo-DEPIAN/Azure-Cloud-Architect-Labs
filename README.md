@@ -20,7 +20,6 @@ In every lab within this repository, I follow these fundamental cloud principles
 * **Goal:** Deploy a hardened Windows Server 2025 management entry point.
 * **Key Tech:** VNet, Subnets, NSG (/32 Whitelisting), Public IP.
 * **Outcome:** A secured architecture where the server is invisible to the public internet, accessible only from a trusted administrative IP.
-* [View Detailed Lab 1 Documentation](./Lab1-Project-Blue-Horizon/README.md)
 
 ### ⚪ Lab 2: Storage Architecture (Coming Soon)
 * **Focus:** Managed Disks, Performance Tiers (Standard vs. Premium SSD), and Disk Lifecycle.
@@ -47,4 +46,3 @@ My goal is to demonstrate proficiency in:
 4.  Infrastructure documentation and technical writing.
 
 ---
-**Contact:** [Your Name] | [Your LinkedIn Profile]
