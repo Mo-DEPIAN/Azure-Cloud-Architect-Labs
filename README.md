@@ -1,48 +1,43 @@
-# Azure Cloud Engineering & Architecture Labs 🚀
+# Azure Cloud Architecture Labs
 
-Welcome to my Azure Labs repository. This project serves as a comprehensive technical portfolio where I document my journey in mastering Microsoft Azure infrastructure, security, and automation.
-
-Each lab focuses on real-world scenarios, following the "Design-then-Deploy" methodology to ensure security, cost-efficiency, and scalability.
+A comprehensive collection of technical labs and architectural patterns focused on **Microsoft Azure Core Services**. This repository documents the implementation of secure, scalable, and highly available cloud infrastructure.
 
 ---
 
-## 🏗️ Core Architectures & Methodology
-In every lab within this repository, I follow these fundamental cloud principles:
-- **Network-First Design:** Establishing VNet, Subnets, and NSGs before provisioning compute.
-- **Least Privilege Access:** Using IP Whitelisting and RBAC to secure entry points.
-- **Cost Governance:** Utilizing B-series burstable VMs and Auto-shutdown to manage resources.
+## 🚀 Overview
+This repository serves as a professional portfolio of cloud engineering tasks, ranging from foundational networking to advanced security configurations. Each lab is designed with a **Security-First** approach, emphasizing network isolation, data protection, and cost optimization.
+
+## 📁 Lab Categories
+
+### 1. Compute & High Availability
+* **Virtual Machine Scale Sets (VMSS):** Implementing automated scaling and high availability.
+* **Azure Load Balancer:** Configuring health probes, backend pools, and inbound NAT rules for RDP management.
+* **Hardened Environments:** Deploying and securing Windows Server 2025 instances.
+
+### 2. Networking & Security
+* **Virtual Networks (VNet):** Designing subnet architectures and isolation strategies.
+* **Network Security Groups (NSG):** Implementing granular security rules and IP whitelisting.
+* **Disk Encryption (ADE):** Configuring **Disk Encryption Sets (DES)** and **Azure Key Vault** for Customer-Managed Keys (CMK).
+* **Hybrid Connectivity:** Exploring Site-to-Site VPNs and cross-premises communication.
+
+### 3. Identity & Governance
+* **Azure Key Vault:** Centralized management of secrets, cryptographic keys, and access policies.
+* **Storage Security:** Implementing MFA for storage management and secure access tiers.
+* **Cost Management:** Labs focused on the pillars of Visibility, Accountability, and Optimization.
+
+## 🏆 Featured Project: Project Blue-Horizon
+A flagship lab focused on building a secure private cloud.
+* **Goal:** Create a hardened, private infrastructure for enterprise workloads.
+* **Key Features:** Isolated network topology, encrypted storage (DES/CMK), and restricted management access via NAT pools.
+
+## 🛠 Tech Stack
+* **Cloud Provider:** Microsoft Azure
+* **Management Tools:** Azure Portal, Azure PowerShell, Azure CLI
+* **Core Concepts:** Cloud Security (IaaS), Networking, Identity (RBAC), Cost Management
+
+## ✍️ About the Author
+**Mahmoud DEPIAN | Aspiring Cloud Engineer**
+Focused on mastering Azure Infrastructure, IT Operations, and Cloud Security.
 
 ---
-
-## 📂 Lab Directory
-
-### 🟢 Lab 1: Project Blue-Horizon (Secure Jumpbox)
-* **Goal:** Deploy a hardened Windows Server 2025 management entry point.
-* **Key Tech:** VNet, Subnets, NSG (/32 Whitelisting), Public IP.
-* **Outcome:** A secured architecture where the server is invisible to the public internet, accessible only from a trusted administrative IP.
-
-### ⚪ Lab 2: Storage Architecture (Coming Soon)
-* **Focus:** Managed Disks, Performance Tiers (Standard vs. Premium SSD), and Disk Lifecycle.
-* **Goal:** Attach and initialize data disks to an existing workload without downtime.
-
-### ⚪ Lab 3: Load Balancing & High Availability (Planned)
-* **Focus:** Azure Load Balancer, Availability Sets, and Traffic Management.
-
----
-
-## 🛠️ Tools & Technologies
-- **Platform:** Microsoft Azure
-- **OS:** Windows Server 2025, Linux (Ubuntu)
-- **Networking:** Virtual Networks (VNet), NSGs, Azure Bastion
-- **Security:** IP Whitelisting, CIDR Networking, Identity Management
-
----
-
-## 📈 Learning Objectives
-My goal is to demonstrate proficiency in:
-1.  Designing secure network topologies.
-2.  Managing cloud costs and resource optimization.
-3.  Implementing hybrid-ready infrastructure.
-4.  Infrastructure documentation and technical writing.
-
----
+*Documentation is updated regularly as new labs are completed.*
